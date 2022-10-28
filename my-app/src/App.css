@@ -25,9 +25,8 @@
 }
 
 .targes {
-  padding: (1px 2px 2px);
+  padding: 20px;
 }
-
 
 .titleSize {
   font-size: 7.8rem;  
@@ -55,6 +54,7 @@
   border-radius: 30px;
   padding-left: 2%;
   padding-right: 2%;
+  margin-right: 30%;
 }
 
 @keyframes App-logo-spin {
