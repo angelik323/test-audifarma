@@ -1,8 +1,13 @@
 .background-section2 {
     background-color: #212b33;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+.titleSizeSection2 {
+    font-size: 5rem;
+    
+}
