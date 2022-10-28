@@ -1,16 +1,34 @@
 import '../css/menu.css';
+import logoTest from '../assets/img/test-audifarma-logo.png';
 
 function Menu() {
   return (
-    <div className="Menu">
-      <header>
-        <menu>
-          <li>primer elemento </li>
-          <li>segundo elemento </li>
-          <li>tercer elemento </li>
-       </menu>
-      </header>
-    </div>
+    <nav className="navFijo navbar navbar-expand-lg bg-light">
+      <div className="container-fluid">
+        <img src={logoTest} className="logo-test navbar-brand" alt="logo" />
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="d-flex align-items-end" id="navbarText">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/#">Services</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/#">Product</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link itemMenu" href="/#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    
   );
 }
 

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Menu from './pages/Menu';
 import Section2 from './pages/Section2';
@@ -16,18 +16,35 @@ function App() {
       </div>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> aquí va una sección de texto y atrás un video.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
+          <h1 className='titleSize'>Enabling brands to flow with change in order to grow 🚀</h1>
+          <div className='buttonStyles'>
+            <button type="button" class="btn buttonColor1 btn-lg">Get Started</button>
+            <button type="button" class="btn buttonColor2 btn-lg">Get Quote</button>
+            <a
+              className='App-link targes'
+              href="/#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              /WEB DESIGN 
+            </a>
+            <a
+            className='App-link targes'
+            href="/#"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Learn React 123
-          </a>
+            >
+            /BRANDING 
+            </a>
+            <a
+            className='App-link targes'
+            href="/#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              /MARKETING
+            </a>
+          </div>
         </header>
       </div>
       <div>
