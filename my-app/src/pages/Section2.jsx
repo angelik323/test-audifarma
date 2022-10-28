@@ -2,7 +2,6 @@ import '../css/section2.css';
 
 function Section2() {
   return (
-    <>
     <div class="container">
       <div class="row">
         <div class="col-6 col-md-4 my-4">
@@ -23,7 +22,6 @@ function Section2() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
