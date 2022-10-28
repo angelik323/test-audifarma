@@ -3,6 +3,8 @@ import './App.css';
 import Menu from './pages/Menu';
 import Section2 from './pages/Section2';
 import Services from './pages/Services';
+import Product from './pages/Product';
+import PageNavegator from './pages/PageNavegator';
 
 function App() {
   return (
@@ -37,6 +39,16 @@ function App() {
         <body className="background-services">
           <Services />
         </body>
+      </div>
+      <div>
+        <body className="background-product">
+          <Product />
+        </body>
+      </div>
+      <div>
+        <footer className="background-pageNavegator">
+          <PageNavegator />
+        </footer>
       </div>
     </>
   );
