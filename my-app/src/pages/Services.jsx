@@ -4,7 +4,7 @@ function Services() {
   return (
     <div className="background-services">
       <p>
-        lorem ipsun jsdjhfjskahfdjkhadkjhak
+        /Our Services
       </p>
     </div>
   );

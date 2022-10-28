@@ -5,6 +5,7 @@ import Section2 from './pages/Section2';
 import Services from './pages/Services';
 import Product from './pages/Product';
 import PageNavegator from './pages/PageNavegator';
+import ImageSection2 from './pages/ImageSection2';
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
             </a>
           </div>
         </header>
+      </div>
+      <div className='positionImg'>
+        <ImageSection2 />
       </div>
       <div>
         <body className="background-section2">
