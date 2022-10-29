@@ -8,10 +8,15 @@
   }
 
 .titleSizeSection2 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     
 }
 
 .p-rel {
     position: relative;
+}
+
+.containerSection {
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
