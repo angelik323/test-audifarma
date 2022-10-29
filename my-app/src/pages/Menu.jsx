@@ -15,13 +15,13 @@ function Menu() {
             <a className="nav-link active" aria-current="page" href="/#">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/#">Services</a>
+            <a className="nav-link active" aria-current="page" href="/#our">Our</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/#">Product</a>
+            <a className="nav-link" href="/#services">Careers</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link itemMenu" href="/#">Pricing</a>
+            <a className="nav-link itemMenu" href="/#generic_price_table">Pricing</a>
           </li>
         </ul>
       </div>

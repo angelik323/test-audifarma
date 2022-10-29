@@ -22,7 +22,7 @@ function App() {
             <video src={video} className='videoItem' loop autoPlay muted> </video>
           </div>
           <div className='containerInfo'>
-            <h1 className='titleSize'>Enabling brands to flow with change in order to grow 🚀</h1>
+            <h1 className='titleSize'>Start sowing your future, growing with knowledge is now! 🚀</h1>
             <div className='buttonStyles'>
               <button type="button" class="btn buttonColor1 btn-lg">Get Started</button>
               <button type="button" class="btn buttonColor2 btn-lg">Get Quote</button>
@@ -79,3 +79,4 @@ function App() {
 }
 
 export default App;
+

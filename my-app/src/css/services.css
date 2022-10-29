@@ -6,9 +6,14 @@
     font-size: calc(10px + 2vmin);
     color: black;
 }
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+	padding: 60px 0;
+}
 section .section-title{
 	text-align:center;
-	color:#007b5e;
+	color:#2ECC71;
 	margin-bottom:50px;
 	text-transform:uppercase;
 }
@@ -33,7 +38,7 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #007b5e !important;
+	color: #2ECC71;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -50,7 +55,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #007b5e;
+    color: #2ECC71;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
@@ -79,4 +84,9 @@ section .section-title{
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
+}
+
+.containerSection {
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
