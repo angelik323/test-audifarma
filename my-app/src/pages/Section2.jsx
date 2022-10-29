@@ -1,12 +1,15 @@
 import '../css/section2.css';
+import ImageFlotante from './ImageSection2';
+
 
 function Section2() {
   return (
     <div class="container">
       <div class="row">
-        <div class="col-6 col-md-4 my-4">
+        <div class="p-rel col-6 col-md-4 my-4">
           <h2>Lorenzo Morena</h2>
           <span>Founder</span>
+          <ImageFlotante />
         </div>
         <div class="col-md-8">
           <h1 className='titleSizeSection2'>We propel results-driven growth</h1>

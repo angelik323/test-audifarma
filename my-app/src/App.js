@@ -3,9 +3,10 @@ import './App.css';
 import Menu from './pages/Menu';
 import Section2 from './pages/Section2';
 import Services from './pages/Services';
-import Product from './pages/Product';
+import Pricing from './pages/Pricing';
 import PageNavegator from './pages/PageNavegator';
-import ImageSection2 from './pages/ImageSection2';
+import video from './assets/video/video2.mp4';
+
 
 function App() {
   return (
@@ -17,39 +18,41 @@ function App() {
       </div>
       <div className="App">
         <header className="App-header">
-          <h1 className='titleSize'>Enabling brands to flow with change in order to grow 🚀</h1>
-          <div className='buttonStyles'>
-            <button type="button" class="btn buttonColor1 btn-lg">Get Started</button>
-            <button type="button" class="btn buttonColor2 btn-lg">Get Quote</button>
-            <a
+          <div className='containerVideo'>
+            <video src={video} className='videoItem' loop autoPlay muted> </video>
+          </div>
+          <div className='containerInfo'>
+            <h1 className='titleSize'>Enabling brands to flow with change in order to grow 🚀</h1>
+            <div className='buttonStyles'>
+              <button type="button" class="btn buttonColor1 btn-lg">Get Started</button>
+              <button type="button" class="btn buttonColor2 btn-lg">Get Quote</button>
+              <a
+                className='App-link targes'
+                href="/#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /WEB DESIGN 
+              </a>
+              <a
               className='App-link targes'
               href="/#"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              /WEB DESIGN 
-            </a>
-            <a
-            className='App-link targes'
-            href="/#"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            /BRANDING 
-            </a>
-            <a
-            className='App-link targes'
-            href="/#"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-              /MARKETING
-            </a>
+              >
+              /BRANDING 
+              </a>
+              <a
+              className='App-link targes'
+              href="/#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                /MARKETING
+              </a>
+            </div>
           </div>
         </header>
-      </div>
-      <div className='positionImg'>
-        <ImageSection2 />
       </div>
       <div>
         <body className="background-section2">
@@ -63,7 +66,7 @@ function App() {
       </div>
       <div>
         <body className="background-product">
-          <Product />
+          <Pricing />
         </body>
       </div>
       <div>
