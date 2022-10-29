@@ -14,6 +14,7 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 reportWebVitals();
 
 <script src="https://kit.fontawesome.com/7a8761bdbb.js" crossorigin="anonymous"></script>

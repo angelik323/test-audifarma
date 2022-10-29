@@ -51,6 +51,12 @@ function App() {
                 /MARKETING
               </a>
             </div>
+            <h2 className='espacioMobile'>
+              Your university within reach, you have knowledge in your hands. 🧠
+            </h2>
+            <br></br>
+            <h2 className='espacioMobile'>You own your own dreams.</h2>
+            
           </div>
         </header>
       </div>
