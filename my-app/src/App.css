@@ -30,8 +30,9 @@
 }
 
 .titleSize {
-  font-size: 7rem;  
-  width: 90%;
+  font-size: 6rem;  
+  width: 80%;
+  color: #212b33;
 }
 
 .buttonStyles {
@@ -40,8 +41,8 @@
 }
 
 .buttonColor1 {
-  background-color: #212b33;
-  color: white;
+  background-color:  #2ECC71;
+  color: #212b33;
   border-radius: 30px;
   padding-left: 2%;
   padding-right: 2%;
