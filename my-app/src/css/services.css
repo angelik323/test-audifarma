@@ -13,7 +13,7 @@ section{
 }
 section .section-title{
 	text-align:center;
-	color:#2ECC71;
+	color:#2e60cc;
 	margin-bottom:50px;
 	text-transform:uppercase;
 }
@@ -38,7 +38,7 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #2ECC71;
+	color: #2e60cc;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -55,7 +55,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #2ECC71;
+    color: #2e60cc;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
