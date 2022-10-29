@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/test-audifarma/static/css/main.dd939b00.css",
+    "main.js": "/test-audifarma/static/js/main.ba9352ce.js",
+    "static/js/787.28cb0dcd.chunk.js": "/test-audifarma/static/js/787.28cb0dcd.chunk.js",
+    "static/media/video2.mp4": "/test-audifarma/static/media/video2.05d08f934a864dbaef50.mp4",
+    "static/media/img-section2.png": "/test-audifarma/static/media/img-section2.56eeaac47fc34a511378.png",
+    "index.html": "/test-audifarma/index.html",
+    "main.dd939b00.css.map": "/test-audifarma/static/css/main.dd939b00.css.map",
+    "main.ba9352ce.js.map": "/test-audifarma/static/js/main.ba9352ce.js.map",
+    "787.28cb0dcd.chunk.js.map": "/test-audifarma/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd939b00.css",
+    "static/js/main.ba9352ce.js"
+  ]
+}
