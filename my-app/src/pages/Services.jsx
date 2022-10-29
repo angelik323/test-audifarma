@@ -16,7 +16,7 @@ function Services() {
                     <div className="card">
                         <div className="card-block block-1">
                             <h3 className="card-title">Engineering</h3>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text">The application of science and mathematics to solve problems. Find practical uses for scientific discoveries.</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ function Services() {
                     <div className="card">
                         <div className="card-block block-2">
                             <h3 className="card-title">Research</h3>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text">The reconstruction of the facts that will provide an explanation to an observed events.</p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function Services() {
                     <div className="card">
                         <div className="card-block block-3">
                             <h3 className="card-title">Sports</h3>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text"> Refer to any job that is involved with the athletic industry, including athletic and non-athletic positions.</p>
                         </div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ function Services() {
                 <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                     <div className="card">
                         <div className="card-block block-4">
-                            <h3 className="card-title">artistic</h3>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <h3 className="card-title">Artistic</h3>
+                            <p className="card-text"> Refers to a job that involves being creative or producing works of art, often using a specific medium.</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ function Services() {
                     <div className="card">
                         <div className="card-block block-5">
                             <h3 className="card-title">Languages</h3>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text">Provides lots of ideas on various career areas, as well as how to gain related skills and experience.</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function Services() {
                     <div className="card">
                         <div className="card-block block-6">
                             <h3 className="card-title">Administrative</h3>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text"> Schedule appointments and meetings, ensure an efficient environment, and answer enquiries.</p>
                         </div>
                     </div>
                 </div>
