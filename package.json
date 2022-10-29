@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "feather-icons": "^4.29.0"
+    "feather-icons": "^4.29.0",
+    "react-native-elements": "^3.4.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

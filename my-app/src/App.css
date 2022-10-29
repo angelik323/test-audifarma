@@ -113,4 +113,29 @@
   .espacioMobile {
     width: 80%;
   }
+
+  .buttonColor1 {
+    background-color:  #2e60cc;
+    color: whitesmoke;
+    border-radius: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 1%;
+    font-size: 17px;
+  }
+  
+  .buttonColor2 {
+    background-color: #e7ebec;
+    color: #31393f;
+    border-radius: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 30%;
+    font-size: 17px;
+
+  }
+
+  .targes {
+    display: none;
+  }
 }

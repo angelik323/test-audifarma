@@ -1,6 +1,14 @@
 import '../css/pageNavegator.css';
 
 function PageNavegator() {
+  const listCareers = [
+    {"careers": "Engineering"},
+    {"careers": "Research"},
+    {"careers": "Sports"},
+    {"careers": "Artistic"},
+    {"careers": "Languages"},
+    {"careers": "Administrative"}
+  ]
   return (
     <div classNameName="background-pageNavegator">
     <footer className="text-center text-lg-start bg-light text-muted">
@@ -17,30 +25,21 @@ function PageNavegator() {
                 dolor sit amet, consectetur adipisicing elit.
               </p>
             </div>
-    
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                Careers
+              Careers
               </h6>
-              <p>
-                <a href="/#" className="text-reset">Ingenierías</a>
-              </p>
-              <p>
-                <a href="/#" className="text-reset">Administrativas</a>
-              </p>
-              <p>
-                <a href="/#" className="text-reset">Investigación</a>
-              </p>
-              <p>
-                <a href="/#" className="text-reset">Artísticas</a>
-              </p>
-              <p>
-                <a href="/#" className="text-reset">Idiomas</a>
-              </p>
-              <p>
-                <a href="/#" className="text-reset">Deportivas</a>
-              </p>
+              {listCareers.map((listCareer)=> {
+                return(
+                    <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                      <p>
+                        <a href="/#" className="text-reset">{listCareer.careers}</a>
+                      </p>
+                    </div>
+                    );
+                })}         
             </div>
+  
     
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
