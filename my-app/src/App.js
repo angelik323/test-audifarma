@@ -55,7 +55,7 @@ function App() {
               Your university within reach, you have knowledge in your hands. 🧠
             </h2>
             <br></br>
-            <h2 className='espacioMobile'>You own your own dreams.</h2>
+            <h2 className='espacioMobile'>You own your dreams and your paths.</h2>
             
           </div>
         </header>
