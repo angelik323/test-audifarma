@@ -90,3 +90,27 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .espacioMobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .titleSize {
+    font-size: 25px;
+    position: relative;
+    bottom: 92px;
+  }
+
+  .buttonStyles {
+    font-size: 10px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .espacioMobile {
+    width: 80%;
+  }
+}

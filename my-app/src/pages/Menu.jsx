@@ -3,7 +3,8 @@ import logoTest from '../assets/img/test-audifarma-logo.png';
 
 function Menu() {
   return (
-    <nav className="navFijo navbar navbar-expand-lg bg-light">
+    <>
+    <nav className="navDesktop navFijo navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <img src={logoTest} className="logo-test navbar-brand" alt="logo" />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,8 +29,16 @@ function Menu() {
       </div>
     </nav>
 
+    <nav className="navMobile navFijo navbar navbar-expand-lg bg-light">
+      <div className="container-fluid">
+        <img src={logoTest} className="logo-test-mobile navbar-brand" alt="logo" />
+        
+      </div>
+    </nav>
     
+    </>
   );
 }
 
 export default Menu;
+
